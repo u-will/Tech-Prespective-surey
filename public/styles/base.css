@@ -1,0 +1,28 @@
+
+body {
+  background-color: #FFE7D6;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* font-family: Gotham Rounded SSm A, Helvetica, sans-serif, serif; */
+  font-size: 2vw;
+  height: 89vw;
+}
+
+button {
+  border: none;
+  box-shadow: .2vw .4vw black;
+  border-radius: 2vw;
+  transition: 350ms;
+  font-size: 2vw;
+}
+
+button:hover {
+  border: none;
+  box-shadow: .2vw .4vw black;
+  border-radius: 2vw;
+}
+
+button:active {
+  transform: translateY(.2vw);
+  box-shadow: none;
+}
